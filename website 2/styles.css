@@ -1,0 +1,542 @@
+
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans|Pacifico|Baloo|Montserrat|Bubbler+One|Oswald|Work+Sans);
+@import		url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+header  {
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	width: 98%;
+	padding: 5px;
+	opacity: 0.9;
+	position: fixed;
+	z-index: 1;
+	margin-bottom: none;
+	background-color: #000;
+	height: 80px;
+	animation: rainbow 3s infinite;
+
+}
+
+
+@keyframes rainbow {
+	0% {color: #F2BA02;}
+	25% {color: #1F1E1E;}
+	50%{ color: #ED1717; }
+	75% { color: #69AF5F; }
+	100% {color: #F2BA02;}
+}
+
+.vibe2 {
+	display: none;
+}
+
+.vibe:hover {
+	width: 200px;
+	animation: skew 3s infinite;
+	transform: skew(25deg);
+}
+
+@keyframes skew {
+	0% { 
+	transform: skewX(20deg); 
+}
+
+ 	100% {
+ 		transform: skewX(-20deg);
+ 	}
+}
+
+.nav {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: inline-block;
+	float: left;
+	opacity: 1;
+	color: #408080;
+	width: 700px;
+	margin-left: 39%;
+	margin-top: 5px; 
+}
+
+a.nav-bar:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a.nav-bar:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a.nav-bar:hover {
+	background-color: #233272;
+	padding: 10px;
+	border-bottom: 2px solid #D09595;
+	color: #95CECF;
+	text-decoration: none;
+}
+
+a.nav-bar:active {
+	background-color: #88C0FC;
+	color: black;
+}
+
+.down {
+	border: none;
+	position: absolute;
+	right: 10px;
+	border-radius: 25px;
+	box-shadow: 2px #D09595;
+	border: 1px dashed #D09595;
+	background-color: #95CECF;
+	font-size: 40px;
+	color: black;
+	width: 50px;
+	height: 50px;
+}
+
+.nav-child {
+	padding: 2px;
+	width: 150px;
+}
+
+h1 {
+	font-family: 'Bubbler One', sans-serif;
+	padding-top: 5px;
+	padding-left: 20px;
+}
+
+ul {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+li {
+	width: 150px;
+	text-align: center;
+	float: left;
+}
+
+body {
+		margin-top: 1px;
+		background-color: #1F1E1E;
+		color: white;
+		font-family: 'Work Sans', sans-serif;
+		letter-spacing: 1px;
+		line-height: 30px;
+		font-size: 20px;
+    }
+
+    h3 {
+    	font-size: 28px;
+		text-align: left;
+		height: 50px;
+		margin-left: 100px;
+		border: 1px;
+		font-family: 'Montserrat', sans-serif;
+  		overflow: hidden; /* Ensures the content is not revealed until the animation */
+  		white-space: nowrap; /* Keeps the content on a single line */
+  		letter-spacing: .10em; /* Adjust as needed */
+  		animation: 
+    		typing 3.9s steps(40, end),
+    		blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+h2 {
+	font-family: 'Baloo', cursive;
+}
+
+h4 {
+	font-family: 'Oswald', sans-serif;
+}
+
+ .heading{
+	 	background: url(coding.jpg)  no-repeat center fixed; 
+    	text-align: center;
+    	z-index: -1;
+    	width: 100%;
+    	background-size: cover;
+    	height: 600px;
+ }
+
+.child {
+	margin: auto;
+	padding: 250px 50px;
+	width: 800px;
+	display: block;
+   	background-size: cover;
+	text-align: center;
+}
+
+.background {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	opacity: 0.4;
+	color: #000;
+	width: 100px;
+	height: 50px;
+	font-size: 45px;
+}
+
+.child-2 {
+	color: #200000;
+	height: 350px;
+	padding: 100px;
+	padding-top: 150px;
+	padding-bottom: 50px;
+	background-color: #FEFEFE;
+	margin: none;
+	text-align: center;
+	position: relative;
+}
+
+.child-3{
+	color: black;
+	height: 380px;
+	padding: 50px;
+	margin: none;
+	background-color: #E4E4E4;
+	position: relative;
+	text-align: center;
+}
+
+
+.child-4 {
+	height: 250px;
+	padding: 50px;
+	margin: none;
+	background-color: #F2BA02;
+	color: black;
+	text-align: center;
+}
+
+.skillset {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	height: 750px;
+}
+
+.skillset-a {
+	padding-top: 50px;
+	width: 400px;
+	height: 250px;
+}
+
+.child-5 {
+	padding: 50px;
+	margin: 100px;
+	height: 200px;
+	background-color: #1F1E1E;
+	text-align: center;	
+}
+
+footer {
+	color: white;
+	border-top: 1px solid grey;
+	background-color: #4D6CFA;
+	padding-left: 500px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+a:link {
+	color: white;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #E4AB9C;
+
+}
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+
+header {
+	font-size: 30px;
+	width: 98.6%;
+	z-index: 1;
+	height: 150px;
+	opacity: 0.9;
+}
+h1 {
+	padding-top: 20px;
+}
+
+.nav-child {
+	width: 160px;
+	padding-top: 20px;
+}
+
+body html {
+		height: 100%; 
+		font-size: 28px;
+		width: 98.6%;
+}
+
+
+.vibe {
+	
+	display: none;
+}
+
+.vibe2 {
+	display: block;
+}
+
+
+.child {
+	word-spacing: 4px;
+	margin: none;
+	padding: none;
+	position: absolute;
+	left: 80px;
+	bottom: 0;
+	height: 400px;	
+}
+
+p {
+	font-size: 40px;
+	line-height: 69px;
+}
+
+.child-2 {
+	word-spacing: 3px;
+	white-space: wrap;
+	font-size: 40px;
+	height: 100%;
+	padding: 40px;
+	margin: none;
+}
+
+.child-3 {
+	word-spacing: 3px;
+	white-space: wrap;
+	font-size: 40px;
+	height: 100%;
+	padding: 40px;
+	margin: none;
+}
+
+.child-4 {
+	word-spacing: 3px;
+	white-space: wrap;
+	font-size: 40px;
+	height: 100%;
+	padding: 40px;
+	margin: none;
+}
+
+.child-5 {
+	word-spacing: 3px;
+	white-space: wrap;
+	font-size: 40px;
+	height: 100%;
+	padding: 40px;
+	margin: none;
+}
+
+footer {
+	padding: 20px;
+	text-align: center;
+}
+
+.skillset {
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.skillset-a {
+	width: 100%;
+	height: 100%;
+}
+
+.heading {
+	background-color: #233272;
+	background-image: none;
+	width: 100%;
+	height: 1000px;
+	position: relative;
+}
+
+}
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+
+}
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+
+
+}
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+header {
+	font-size: 30px;
+	width: 98.6%;
+	z-index: 1;
+	height: 150px;
+	opacity: 0.9;
+}
+
+h1 {
+	padding-left: 1px;
+	padding-top: 20px;
+}
+
+
+.vibe {
+	
+	display: none;
+}
+
+.vibe2{
+	display: block;
+}
+
+.nav {
+	width: 768px;
+}
+
+.nav-child {
+	width: 170px;
+	text-align: right;
+	padding-top: 30px;
+}
+
+body html {
+		height: 100%; 
+		font-size: 40px;
+		width: 768px;
+}
+
+
+.child {
+	position: absolute;
+	bottom: 0;
+	left: 11%;
+	word-spacing: 4px;
+	width: 700px;
+	border-top: 100px;
+	padding: 30px;
+	height: 450px;	
+}
+
+p {
+	font-size: 40px;
+	line-height: 69px;
+}
+
+.child-2 {
+	word-spacing: 3px;
+	white-space: wrap;
+	font-size: 40px;
+	height: 100%;
+	padding: 50px;
+	margin: none;
+}
+
+.child-3 {
+	word-spacing: 3px;
+	white-space: wrap;
+	font-size: 40px;
+	height: 100%;
+	padding: 50px;
+	margin: none;
+}
+
+.child-4 {
+	word-spacing: 3px;
+	white-space: wrap;
+	font-size: 40px;
+	height: 100%;
+	padding: 50px;
+	margin: none;
+}
+
+h4 {
+	font-size: 28px;
+}
+
+.child-5 {
+	text-align: left;
+	word-spacing: 3px;
+	white-space: wrap;
+	font-size: 40px;
+	height: 100%;
+	padding: 30px;
+	margin: none;
+}
+
+footer {
+	padding: 50px;
+	text-align: center;
+}
+
+.skillset {
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.skillset-a {
+	width: 100%;
+	height: 100%;
+}
+
+.heading {
+	width: auto;
+	height: 800px;
+	position: relative;
+}
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
